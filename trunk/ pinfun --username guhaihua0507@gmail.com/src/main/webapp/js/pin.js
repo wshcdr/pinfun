@@ -1,14 +1,14 @@
-var PinData = function(h) {
+var PinData = function() {
 	this.imgUrl = null;
 	this.descript = '';
-	this.height = h;
 	this.ui = null;
 	this.init();
 };
 
 PinData.prototype = {
 	init : function() {
-		this.ui = $('<div/>').addClass('pin').css('height', this.height);
+		var height = parseInt(100 + Math.random() * 300) + 'px';
+		this.ui = $('<div/>').addClass('pin').css('height', height);
 	},
 	
 	getHeight : function() {
@@ -22,9 +22,10 @@ var PinDataContainer = {
 	container : null,
 	init : function() {
 		this.container = $('#ColumnContainer');
+		var left = 0;
 		for (var i = 0; i < 5; i++) {
-			var left = (222 * i) + 150;
 			this.columns.push({height:0, left:left});
+			left += 222 + 15;;
 		}
 	},
 	
