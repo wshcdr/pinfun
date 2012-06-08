@@ -14,9 +14,8 @@
 		$(document.body).append($('<div/>').addClass('pin').css('left', '250px')); */
 		PinDataContainer.init();
 		for (var i = 0; i < 7; i++) {
-			var height = parseInt(Math.random() * 500) + 'px';
 			//$('#ColumnContainer').append($('<div/>').addClass('pin').css('height', height));
-			var d = new PinData(height);
+			var d = new PinData();
 			PinDataContainer.pin(d);
 		}
 	});
