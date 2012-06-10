@@ -8,11 +8,9 @@ var PinData = function(data) {
 	this.likeCount = 0;
 	this.commentsCount = 0;
 	this.repinsCount = 0;
-	this.user = {
-		id : null,
-		name : null,
-		icon : null
-	};
+	this.userId = null;
+	this.userName = null;
+	this.userIcon = null;
 	this.topic = {
 		id : null,
 		name : null
@@ -40,14 +38,14 @@ PinData.prototype = {
 		state.append($("<span/>").text(this.commentsCount + ' comments '));
 		state.append($("<span/>").text(this.repinsCount + ' repins '));
 		
-		$("<div class='convo attribution clearfix'></div>").append("<a href='" + this.user.id + "' class='ImgLink'><img src='"+ this.user.icon +"'></a>")
-			.append("<a href='" + this.user.id + "'>"+ this.user.name + "</a><a href='" + this.topic.id + "'>"+this.topic.name+"</a>").appendTo(this.viewUI);
+		$("<div class='convo attribution clearfix'></div>").append("<a href='" + this.userId + "' class='ImgLink'><img src='"+ this.userIcon +"'></a>")
+			.append("<a href='" + this.userId + "'>"+ this.userName + "</a> <a href='" + this.topic.id + "'>"+this.topic.name+"</a>").appendTo(this.viewUI);
 		
 		var comets = $("<div class='comments colormuted'></div>").appendTo(this.viewUI);
 		for (var i = 0; i < this.comments.length; i++) {
 			var commObj = $("<div class='comment convo clearfix'></div>").attr('id', this.comments[i].id);
-			commObj.append("<a href='" + this.comments[i].user.id + "' class='ImgLink'><img src='"+ this.comments[i].user.icon +"' class='profile user_image'></a>");
-			commObj.append("<a href='" + this.comments[i].user.id + "'>" + this.comments[i].content + "</a>");
+			commObj.append("<a href='" + this.comments[i].userId + "' class='ImgLink'><img src='"+ this.comments[i].userIcon +"' class='profile user_image'></a>");
+			commObj.append("<a href='" + this.comments[i].userId + "'>" + this.comments[i].userName + "</a> " + this.comments[i].content);
 			comets.append(commObj);
 		}
 	},
