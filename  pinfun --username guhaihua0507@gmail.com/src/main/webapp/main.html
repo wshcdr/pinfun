@@ -3,30 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <title>Pin Fun</title>
-<link type="text/css" href="css/ui-lightness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+<link type="text/css"
+	href="css/ui-lightness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
 <link type="text/css" href="css/pin.css" rel="stylesheet" />
 <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.20.custom.min.js"></script>
 <script type="text/javascript" src="js/pin.js"></script>
+<script type="text/javascript" src="test-data.js"></script>
 <script type="text/javascript">
 	$(function() {
 		/* $('<div/>').addClass('pin').css('height', '100px').appendTo(document.body);
 		$(document.body).append($('<div/>').addClass('pin').css('left', '250px')); */
-		PinDataContainer.init();
-		for (var i = 0; i < 7; i++) {
+		DataLayout.init({
+			contentID : 'ColumnContainer'
+		});
+		/* for ( var i = 0; i < 50; i++) {
 			//$('#ColumnContainer').append($('<div/>').addClass('pin').css('height', height));
 			var d = new PinData();
-			PinDataContainer.pin(d);
-		}
+			DataLayout.pin(d);
+		} */
+		DataLayout.show(data);
 	});
 </script>
 </head>
 <body>
-<!-- <div id='pin1' class='pin'>
-	<div style='position: static; height: 100px; border: 1px solid black;'></div>
-</div> -->
-<div id='ColumnContainer' class='column_container'>
-
-</div>
+	<div id='ColumnContainer' class='column_container'>
+		
+	</div>
 </body>
 </html>
