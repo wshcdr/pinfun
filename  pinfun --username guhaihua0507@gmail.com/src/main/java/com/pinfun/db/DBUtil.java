@@ -8,16 +8,16 @@ import java.sql.Statement;
 
 import com.pinfun.Env;
 
-/** 
+/**
  * 
  * @author dingyong
- *
+ * 
  */
 
 public class DBUtil {
 	private static String driver;
 	private static String url;
-	private static String user ;
+	private static String user;
 	private static String password;
 	static {
 		driver = Env.get("DB_DRIVER");
@@ -25,14 +25,14 @@ public class DBUtil {
 		user = Env.get("DB_USER");
 		password = Env.get("DB_PASSWORD");
 	}
-	
+
 	public static Connection getConnection() throws Exception {
-		System.out.println("========get connection");
 		Class.forName(driver);
 		return DriverManager.getConnection(url, user, password);
 	}
-	
-	public static void close(Connection con, Statement smt, ResultSet rs) throws SQLException {
+
+	public static void close(Connection con, Statement smt, ResultSet rs)
+			throws SQLException {
 		if (rs != null) {
 			rs.close();
 		}
@@ -43,9 +43,4 @@ public class DBUtil {
 			con.close();
 		}
 	}
-	
-	public static void main(String[] args) throws Exception {
-		DBUtil.getConnection();
-	}
 }
-

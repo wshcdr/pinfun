@@ -1,6 +1,5 @@
 package com.pinfun;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Enumeration;
 import java.util.HashMap;
@@ -19,7 +18,7 @@ public class Env {
 	static {
 		try {
 			//InputStream in = new FileInputStream(Env.class.getResource("/" + CONFIG_FILE).getFile());
-			InputStream in = Env.class.getResourceAsStream("/" + CONFIG_FILE);
+			InputStream in = Env.class.getResourceAsStream("/config/" + CONFIG_FILE);
 			Properties p = new Properties();
 			p.load(in);
 			in.close();
