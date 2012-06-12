@@ -12,23 +12,15 @@
 <script type="text/javascript" src="test-data.js"></script>
 <script type="text/javascript">
 	$(function() {
-		/* $('<div/>').addClass('pin').css('height', '100px').appendTo(document.body);
-		$(document.body).append($('<div/>').addClass('pin').css('left', '250px')); */
 		DataLayout.init({
 			contentID : 'ColumnContainer'
 		});
-		/* for ( var i = 0; i < 50; i++) {
-			//$('#ColumnContainer').append($('<div/>').addClass('pin').css('height', height));
-			var d = new PinData();
-			DataLayout.pin(d);
-		} */
-		DataLayout.show(data);
+		DataLayout.loadData(data);
 	});
 </script>
 </head>
 <body>
 	<div id='ColumnContainer' class='column_container'>
-		
 	</div>
 </body>
 </html>

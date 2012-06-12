@@ -3,7 +3,7 @@ var data = [];
 	data.push({
 		id : 1,
 		iconImage : 'pic/icon_img1.jpg',
-		height : 128,
+		picHeight : 128,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
 		likeCount : 100,
@@ -27,7 +27,7 @@ var data = [];
 	data.push({
 		id : 1,
 		iconImage : 'pic/icon_img2.jpg',
-		height : 229,
+		picHeight : 229,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
 		likeCount : 100,
@@ -51,7 +51,7 @@ var data = [];
 	data.push({
 		id : 1,
 		iconImage : 'pic/icon_img3.jpg',
-		height : 278,
+		picHeight : 278,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
 		likeCount : 100,
@@ -75,7 +75,7 @@ var data = [];
 	data.push({
 		id : 1,
 		iconImage : 'pic/icon_img4.jpg',
-		height : 288,
+		picHeight : 288,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
 		likeCount : 100,
@@ -99,7 +99,7 @@ var data = [];
 	data.push({
 		id : 1,
 		iconImage : 'pic/icon_img5.jpg',
-		height : 256,
+		picHeight : 256,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
 		likeCount : 100,
@@ -123,7 +123,7 @@ var data = [];
 	data.push({
 		id : 1,
 		iconImage : 'pic/icon_img6.jpg',
-		height : 288,
+		picHeight : 288,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
 		likeCount : 100,
@@ -147,7 +147,7 @@ var data = [];
 	data.push({
 		id : 1,
 		iconImage : 'pic/icon_img7.jpg',
-		height : 192,
+		picHeight : 192,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
 		likeCount : 100,
@@ -171,7 +171,7 @@ var data = [];
 	data.push({
 		id : 1,
 		iconImage : 'pic/icon_img8.jpg',
-		height : 240,
+		picHeight : 240,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
 		likeCount : 100,
