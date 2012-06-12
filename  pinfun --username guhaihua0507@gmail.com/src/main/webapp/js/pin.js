@@ -1,8 +1,8 @@
 var PinData = function(data) {
 	this.id = null;
 	this.iconImage = null;
-	this.width = 0;
-	this.height = 0;
+	this.picWidth = 0;
+	this.picHeight = 0;
 	this.image = null;
 	this.description = '';
 	this.likeCount = 0;
@@ -29,7 +29,7 @@ PinData.prototype = {
 		this.viewUI = $("<div class='pin'></div>").attr('id', this.id);
 		
 		var pinHolder = $("<div class='pinHolder'></div>");
-		pinHolder.append("<a href=" + this.image + " class='PinImage ImgLink'><img src='" + this.iconImage + "' height=" + this.height + " alt='" + this.description + "' class='PinImageImg'></a>");
+		pinHolder.append("<a href=" + this.image + " class='PinImage ImgLink'><img src='" + this.iconImage + "' height=" + this.picHeight + " alt='" + this.description + "' class='PinImageImg'></a>");
 		this.viewUI.append(pinHolder);
 		
 		this.viewUI.append("<p class='description'>" + this.description + "</p>");
@@ -71,7 +71,7 @@ var DataLayout = {
 		}
 	},
 
-	show : function(d) {
+	loadData : function(d) {
 		for (var i = 0; i < d.length; i++) {
 			this.pin(new PinData(d[i]));
 		}
