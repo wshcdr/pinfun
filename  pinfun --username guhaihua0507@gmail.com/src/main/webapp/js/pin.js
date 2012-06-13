@@ -49,6 +49,22 @@ PinData.prototype = {
 			comets.append(commObj);
 		}
 	},
+	
+	loadImage : function() {
+		
+	},
+	
+	loadState : function() {
+		
+	},
+	
+	loadTopic : function() {
+		
+	},
+	
+	loadComments : function() {
+		
+	}
 };
 
 var DataLayout = {
