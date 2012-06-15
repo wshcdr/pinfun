@@ -2,7 +2,7 @@ var data = [];
 (function() {
 	data.push({
 		id : 1,
-		iconImage : 'pic/icon_img1.jpg',
+		thumb : 'pic/icon_img1.jpg',
 		picHeight : 128,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
@@ -20,13 +20,13 @@ var data = [];
 			id : 'comment id1',
 			content : "very good!",
 			userId : "user1",
-			userName : "user name 1",
+			userName : "user1",
 			userIcon : "pic/user_icon1.jpg",
 		} ]
 	});
 	data.push({
 		id : 1,
-		iconImage : 'pic/icon_img2.jpg',
+		thumb : 'pic/icon_img2.jpg',
 		picHeight : 229,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
@@ -44,13 +44,20 @@ var data = [];
 			id : 'comment id1',
 			content : "very good!",
 			userId : "user1",
-			userName : "user name 1",
+			userName : "user1",
 			userIcon : "pic/user_icon1.jpg",
+		},
+		{
+			id : 'comment id2',
+			content : "haha",
+			userId : "user2",
+			userName : "user2",
+			userIcon : "pic/user_icon2.jpg",
 		} ]
 	});
 	data.push({
 		id : 1,
-		iconImage : 'pic/icon_img3.jpg',
+		thumb : 'pic/icon_img3.jpg',
 		picHeight : 278,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
@@ -68,13 +75,13 @@ var data = [];
 			id : 'comment id1',
 			content : "very good!",
 			userId : "user1",
-			userName : "user name 1",
+			userName : "user1",
 			userIcon : "pic/user_icon1.jpg",
 		} ]
 	});
 	data.push({
 		id : 1,
-		iconImage : 'pic/icon_img4.jpg',
+		thumb : 'pic/icon_img4.jpg',
 		picHeight : 288,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
@@ -92,13 +99,13 @@ var data = [];
 			id : 'comment id1',
 			content : "very good!",
 			userId : "user1",
-			userName : "user name 1",
+			userName : "user1",
 			userIcon : "pic/user_icon1.jpg",
 		} ]
 	});
 	data.push({
 		id : 1,
-		iconImage : 'pic/icon_img5.jpg',
+		thumb : 'pic/icon_img5.jpg',
 		picHeight : 256,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
@@ -116,13 +123,13 @@ var data = [];
 			id : 'comment id1',
 			content : "very good!",
 			userId : "user1",
-			userName : "user name 1",
+			userName : "user1",
 			userIcon : "pic/user_icon1.jpg",
 		} ]
 	});
 	data.push({
 		id : 1,
-		iconImage : 'pic/icon_img6.jpg',
+		thumb : 'pic/icon_img6.jpg',
 		picHeight : 288,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
@@ -140,13 +147,13 @@ var data = [];
 			id : 'comment id1',
 			content : "very good!",
 			userId : "user1",
-			userName : "user name 1",
+			userName : "user1",
 			userIcon : "pic/user_icon1.jpg",
 		} ]
 	});
 	data.push({
 		id : 1,
-		iconImage : 'pic/icon_img7.jpg',
+		thumb : 'pic/icon_img7.jpg',
 		picHeight : 192,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
@@ -164,13 +171,13 @@ var data = [];
 			id : 'comment id1',
 			content : "very good!",
 			userId : "user1",
-			userName : "user name 1",
+			userName : "user1",
 			userIcon : "pic/user_icon1.jpg",
 		} ]
 	});
 	data.push({
 		id : 1,
-		iconImage : 'pic/icon_img8.jpg',
+		thumb : 'pic/icon_img8.jpg',
 		picHeight : 240,
 		image : "pic/image.jpg",
 		description : "descriptions hahaha!",
@@ -188,7 +195,7 @@ var data = [];
 			id : 'comment id1',
 			content : "very good!",
 			userId : "user1",
-			userName : "user name 1",
+			userName : "user1",
 			userIcon : "pic/user_icon1.jpg",
 		} ]
 	});
