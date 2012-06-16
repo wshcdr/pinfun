@@ -19,7 +19,28 @@
 		content : "very good!",
 		userId : "user1",
 		userName : "user1",
-		userIcon : "pic/user_icon1.jpg",
+		userIcon : "pic/user_icon1.jpg"
+	},
+	{
+		id : 'comment id1',
+		content : "very good!",
+		userId : "user1",
+		userName : "user1",
+		userIcon : "pic/user_icon1.jpg"
+	},
+	{
+		id : 'comment id1',
+		content : "very good!",
+		userId : "user1",
+		userName : "user1",
+		userIcon : "pic/user_icon1.jpg"
+	},
+	{
+		id : 'comment id1',
+		content : "very good!",
+		userId : "user1",
+		userName : "user1",
+		userIcon : "pic/user_icon1.jpg"
 	} ]
 }, {
 	id : 1,
@@ -42,13 +63,13 @@
 		content : "very good!",
 		userId : "user1",
 		userName : "user1",
-		userIcon : "pic/user_icon1.jpg",
+		userIcon : "pic/user_icon1.jpg"
 	}, {
 		id : 'comment id2',
 		content : "haha",
 		userId : "user2",
 		userName : "user2",
-		userIcon : "pic/user_icon2.jpg",
+		userIcon : "pic/user_icon2.jpg"
 	} ]
 }, {
 	id : 1,
@@ -71,7 +92,7 @@
 		content : "very good!",
 		userId : "user1",
 		userName : "user1",
-		userIcon : "pic/user_icon1.jpg",
+		userIcon : "pic/user_icon1.jpg"
 	} ]
 }, {
 	id : 1,
@@ -94,7 +115,7 @@
 		content : "very good!",
 		userId : "user1",
 		userName : "user1",
-		userIcon : "pic/user_icon1.jpg",
+		userIcon : "pic/user_icon1.jpg"
 	} ]
 }, {
 	id : 1,
@@ -117,7 +138,7 @@
 		content : "very good!",
 		userId : "user1",
 		userName : "user1",
-		userIcon : "pic/user_icon1.jpg",
+		userIcon : "pic/user_icon1.jpg"
 	} ]
 }, {
 	id : 1,
@@ -140,7 +161,7 @@
 		content : "very good!",
 		userId : "user1",
 		userName : "user1",
-		userIcon : "pic/user_icon1.jpg",
+		userIcon : "pic/user_icon1.jpg"
 	} ]
 }, {
 	id : 1,
@@ -163,7 +184,7 @@
 		content : "very good!",
 		userId : "user1",
 		userName : "user1",
-		userIcon : "pic/user_icon1.jpg",
+		userIcon : "pic/user_icon1.jpg"
 	} ]
 }, {
 	id : 1,
@@ -186,6 +207,6 @@
 		content : "very good!",
 		userId : "user1",
 		userName : "user1",
-		userIcon : "pic/user_icon1.jpg",
+		userIcon : "pic/user_icon1.jpg"
 	} ]
 } ]
