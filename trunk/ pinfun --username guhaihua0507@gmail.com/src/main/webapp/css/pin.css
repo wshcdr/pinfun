@@ -57,7 +57,7 @@ legend {
 }
 
 #ColumnContainer {
-	position: relative; min-height: 500px; margin: 60px auto 0;border : 1px solid black;
+	position: relative; min-height: 500px; margin: 60px auto 0;
 }
 
 #ColumnContainer.empty {
