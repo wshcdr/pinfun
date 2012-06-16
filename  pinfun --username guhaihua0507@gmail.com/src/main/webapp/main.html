@@ -15,7 +15,10 @@
 		DataLayout.init({
 			contentID : 'ColumnContainer'
 		});
-		DataLayout.loadData(data);
+		DataLayout.loadNewData(data);
+		$(window).resize(function() {
+			DataLayout.resize();
+		});
 	});
 </script>
 </head>
