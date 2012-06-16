@@ -181,9 +181,35 @@ var DataLayout = {
 };
 
 $(function() {
+	$(window).resize(function() {
+		DataLayout.resize();
+	});
+	
 	$(document).scroll(function(){
         if (($(window).scrollTop() + $(window).height()) == $(document).height()) {	//at the bottom
-        	DataLayout.loadNewData(data);
+        	$.ajax({
+        		type: "GET",
+        		url : "data.txt",
+        		cache : false,
+        		async : true,
+        		success : function(txt) {
+        			var _data = eval("(" + txt + ")");
+        			DataLayout.loadNewData(_data);
+        		}
+        	});
         }
     });
+});
+
+$(function() {
+	$.ajax({
+		type: "GET",
+		url : "data.txt",
+		cache : false,
+		async : true,
+		success : function(txt) {
+			var _data = eval("(" + txt + ")");
+			DataLayout.loadNewData(_data);
+		}
+	});
 });
