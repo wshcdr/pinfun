@@ -53,9 +53,9 @@ PinData.prototype = {
 
 	_renderState : function() {
 		var state = $("<p/>").addClass("stats colorless");
-		state.append($("<span/>").text(this.likeCount + ' likes '));
-		state.append($("<span/>").text(this.commentsCount + ' comments '));
-		state.append($("<span/>").text(this.repinsCount + ' repins '));
+		state.append($("<span class='LikesCount'/>").text(this.likeCount + ' likes '));
+		state.append($("<span class='CommentsCount'/>").text(this.commentsCount + ' comments '));
+		state.append($("<span class='RepinsCount'/>").text(this.repinsCount + ' repins '));
 		this.ui.append(state);
 	},
 
@@ -66,7 +66,6 @@ PinData.prototype = {
 		holder.append(" onto ");
 		$("<a></a>").attr("href", this.topic.id).append(this.topic.name).appendTo(holder);
 		this.ui.append(holder);
-
 	},
 
 	_renderComments : function() {
@@ -185,8 +184,8 @@ $(function() {
 		DataLayout.resize();
 	});
 	
-	$(document).scroll(function(){
-        if (($(window).scrollTop() + $(window).height()) == $(document).height()) {	//at the bottom
+	$(window).scroll(function(){
+		if (($(window).scrollTop() + $(window).height()) == $(document).height()) {	//at the bottom
         	$.ajax({
         		type: "GET",
         		url : "data.txt",

@@ -1,0 +1,228 @@
+#PriorAndNext .position {
+	WIDTH: 145px
+}
+.pinComments {
+	BACKGROUND-COLOR: #f3f3f3
+}
+.PinComments .comment {
+	BORDER-LEFT: #ccc 0px solid; BORDER-TOP: #ccc 0px solid; BORDER-RIGHT: #ccc 0px solid
+}
+#PinAddComment #PinInputArea {
+	WIDTH: 553px
+}
+#pin_closeup_comment {
+	TOP: 1px
+}
+.closeupComment#highlighter {
+	COLOR: #fff
+}
+#highlighter {
+	FONT-FAMILY: "helvetica neue", arial, sans-serif; TOP: 2px
+}
+#highlighter B {
+	FONT-WEIGHT: normal
+}
+#BookmarkletaddAPinContainer #PinInputArea {
+	WIDTH: 388px
+}
+#PinPinner {
+	MIN-WIDTH: 613px
+}
+#AboutLeft LI A .pointer {
+	BACKGROUND-IMAGE: none
+}
+#AboutLeft LI A .normal {
+	VISIBILITY: hidden
+}
+#AboutLeft LI A .hover {
+	VISIBILITY: hidden
+}
+#AboutLeft LI A:hover .hover {
+	VISIBILITY: visible
+}
+#AboutLeft LI .loaded .normal {
+	VISIBILITY: visible
+}
+.pinComments .pinComments_comments {
+	FONT-SIZE: 0px
+}
+.pinComments .pinComments_comments DIV {
+	FONT-SIZE: 10px
+}
+INPUT {
+	FONT-FAMILY: sans-serif
+}
+TEXTAREA {
+	FONT-FAMILY: sans-serif
+}
+#PinPinner {
+	MIN-WIDTH: 550px
+}
+.Button SPAN {
+	WHITE-SPACE: nowrap
+}
+.Button:hover SPAN {
+	BORDER-BOTTOM: #777777 1px solid; BORDER-LEFT: #777777 1px solid; BORDER-TOP: #777777 1px solid; BORDER-RIGHT: #777777 1px solid
+}
+.actions .Button:hover SPAN {
+	BORDER-BOTTOM: #777777 1px solid; BORDER-LEFT: #777777 1px solid; BORDER-TOP: #777777 1px solid; BORDER-RIGHT: #777777 1px solid
+}
+.actions .WhiteButton.Button11 EM {
+	TOP: -2px
+}
+BUTTON.Button {
+	OVERFLOW: visible
+}
+.pin .Button11.WhiteButton {
+	BORDER-BOTTOM: #bbb 1px solid; BORDER-LEFT: #bbb 1px solid; PADDING-BOTTOM: 6px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: #bbb 1px solid; BORDER-RIGHT: #bbb 1px solid; PADDING-TOP: 6px
+}
+#ScrollToTop {
+	BORDER-RIGHT-WIDTH: 1px; WIDTH: auto; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 1px
+}
+#BoardButton .Button SPAN:hover {
+	BORDER-BOTTOM: #2a1919 1px solid; BORDER-LEFT: #2a1919 1px solid; BORDER-TOP: #2a1919 1px solid; BORDER-RIGHT: #2a1919 1px solid
+}
+.modal {
+	BORDER-BOTTOM: #c9c7c8 2px solid; BORDER-LEFT: #c9c7c8 1px solid; BORDER-TOP: #dedcdd 0px solid; BORDER-RIGHT: #c9c7c8 1px solid
+}
+.PaddingLess.modal {
+	BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 2px; BORDER-LEFT-WIDTH: 1px
+}
+A.close {
+	BORDER-LEFT: #c9c7c8 1px solid
+}
+.lg.header {
+	BACKGROUND: url(../images/ie-modal-header-bg.png)
+}
+.comments .convo {
+	OVERFLOW: visible
+}
+#ContextBar {
+	BORDER-BOTTOM: #d1cdcd 3px double; BORDER-LEFT: #d1cdcd 0px double; BORDER-TOP: #d1cdcd 3px double; BORDER-RIGHT: #d1cdcd 0px double
+}
+#BoardMeta {
+	BORDER-BOTTOM: #d1cdcd 3px double; BORDER-LEFT: #d1cdcd 0px double; BORDER-TOP: #d1cdcd 3px double; BORDER-RIGHT: #d1cdcd 0px double
+}
+#LoadingPins {
+	BORDER-BOTTOM: #d1cdcd 3px double; BORDER-LEFT: #d1cdcd 0px double; BORDER-TOP: #d1cdcd 3px double; BORDER-RIGHT: #d1cdcd 0px double
+}
+BODY .Megaphone .Sheet {
+	BORDER-BOTTOM: #c8c298 1px solid; BORDER-LEFT: #c8c298 1px solid; BORDER-TOP: #c8c298 1px solid; BORDER-RIGHT: #c8c298 1px solid
+}
+#PinCaption {
+	BACKGROUND: #fff
+}
+#PinAddComment {
+	BACKGROUND: #fff
+}
+.WhiteContainer {
+	BACKGROUND: #fff
+}
+#profile #ContextBar {
+	BORDER-BOTTOM: #c6bfbf 1px solid
+}
+#CloseupComment {
+	WIDTH: 477px !important
+}
+.CloseupLeft .pin .ImgLink {
+	BACKGROUND-POSITION: center 8px
+}
+#CreateBoard INPUT#BoardName {
+	MIN-WIDTH: 347px; FLOAT: right; MARGIN-RIGHT: 25px
+}
+.attribution .ImgLink {
+	WIDTH: 30px
+}
+#Header {
+	BORDER-BOTTOM: #c9c7c8 2px solid
+}
+#Navigation LI UL {
+	TOP: 44px
+}
+#CategoriesBar {
+	BORDER-BOTTOM: #c9c7c8 2px solid
+}
+#CategoriesBar LI UL {
+	BORDER-TOP: #adaaaa 1px solid; TOP: 31px
+}
+.pin {
+	BORDER-BOTTOM: #c9c7c8 2px solid; BORDER-LEFT: #c9c7c8 1px solid; BORDER-TOP: #dedcdd 1px solid; BORDER-RIGHT: #c9c7c8 1px solid
+}
+.pinBoard .board {
+	BORDER-BOTTOM: #c9c7c8 2px solid; BORDER-LEFT: #c9c7c8 1px solid; BORDER-TOP: #dedcdd 1px solid; BORDER-RIGHT: #c9c7c8 1px solid
+}
+.pinBoard {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none
+}
+.pinBoard .followBoard .Button SPAN {
+	RIGHT: 1px; TOP: 1px; LEFT: 1px
+}
+.colorless.facebook {
+	WIDTH: 100px
+}
+.overlay {
+	FILTER: alpha(opacity=93); BACKGROUND: #fff
+}
+#Repin LI.noMarginBottom .fff {
+	WIDTH: 300px
+}
+TEXTAREA.DescriptionTextarea {
+	WIDTH: 92%
+}
+.BoardPicker {
+	Z-INDEX: 9999; FILTER: 0 !important
+}
+.FixedContainer {
+	Z-INDEX: 2; POSITION: relative
+}
+.WhiteContainer {
+	BORDER-BOTTOM: #c9c7c8 2px solid; POSITION: absolute; BORDER-LEFT: #c9c7c8 1px solid; BORDER-TOP: #dedcdd 1px solid; BORDER-RIGHT: #c9c7c8 1px solid
+}
+.CloseupRight .WhiteContainer {
+	POSITION: relative
+}
+#EmailContainer .EmailFields INPUT {
+	MIN-WIDTH: 280px !important; WIDTH: 280px !important
+}
+.EmailMessage TEXTAREA {
+	WIDTH: 92% !important
+}
+.person {
+	WIDTH: 100%
+}
+#ProfileSidebar {
+	BORDER-BOTTOM: #c9c7c8 2px solid; BORDER-LEFT: #c9c7c8 1px solid; MARGIN-TOP: 59px; BORDER-TOP: #dedcdd 1px solid; BORDER-RIGHT: #c9c7c8 1px solid
+}
+#profile #ProfileHeader .info #editDescription TEXTAREA {
+	WIDTH: 475px
+}
+#ScrapePin .scrapePin INPUT {
+	WIDTH: 380px !important; DISPLAY: inline !important
+}
+.StaticForm H3 {
+	BORDER-BOTTOM: #ccc 1px solid
+}
+.StaticForm .ButtonHeading {
+	BORDER-BOTTOM: #ccc 1px solid
+}
+.StaticForm UL {
+	MARGIN-TOP: 1px; BORDER-TOP: #ccc 1px solid
+}
+.StaticForm LI {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-TOP: #fff 1px solid
+}
+.copyRepin #Repin2 {
+	BORDER-BOTTOM: #c9c7c8 2px solid; BORDER-LEFT: #c9c7c8 1px solid; BORDER-TOP: #dedcdd 0px solid; BORDER-RIGHT: #c9c7c8 1px solid
+}
+.simpleRepin #Repin2 {
+	BORDER-BOTTOM: #c9c7c8 2px solid; BORDER-LEFT: #c9c7c8 1px solid; BORDER-TOP: #dedcdd 0px solid; BORDER-RIGHT: #c9c7c8 1px solid
+}
+#DiscoverPage .loading .container {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #eee 1px solid; BORDER-TOP: #eee 1px solid; BORDER-RIGHT: #eee 1px solid
+}
+#DiscoverPage .FooterBar {
+	BORDER-TOP: #ddd 1px solid
+}
+.convo {
+	min-height: 14px;
+}
