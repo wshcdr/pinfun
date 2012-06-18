@@ -42,9 +42,7 @@ PinData.prototype = {
 		var holder = $("<div class='pinHolder'></div>");
 		var a = $("<a></a>").addClass("PinImage ImgLink").attr("href", this.image);
 		var img = $("<img class='PinImageImg'/>").attr("src", this.thumb).attr("height", this.picHeight).attr("alt", this.description);
-		a.append(img);
-		holder.append(a);
-		this.ui.append(holder);
+		this.ui.append(holder.append(a.append(img)));
 	},
 
 	_renderDescription : function() {
